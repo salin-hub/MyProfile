@@ -104,7 +104,7 @@
     overflow: hidden;
     border: none;
     width: 300px;
-    animation: typing 3s steps(20) forwards, blink 3s step-end infinite;
+    animation: typing 3s steps(20) forwards infinite, blink 3s step-end infinite;
   }
   
   @keyframes typing {
@@ -116,6 +116,7 @@
     from, to { border-color: transparent; }
     50% { border-color: black; }
   }
+
   
 
   
